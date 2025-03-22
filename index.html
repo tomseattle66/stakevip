@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description" content="免费计算器，确定您的Stake VIP等级。了解您需要多少投注额才能达到Stake.com上的下一个VIP等级。" />
+  <meta name="theme-color" content="#181819" />
+  <title>Stake VIP 投注计算器 - 计算VIP等级</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <script type="module" crossorigin src="/assets/index-vwhPv68-.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DELSxcQF.css">
+</head>
+
+<body>
+  <div class="rank-card">
+    <div class="content-wrapper">
+      <div class="header">
+        <div class="welcome-promo">
+          <a href="https://stake.com/?c=ABC666" target="_blank">
+            <img src="/assets/stakead-Dd9urbLy.gif" alt="广告横幅" width="100%" loading="lazy">
+          </a>
+        </div>
+		
+        <div class="mirror-tip">
+          网站打不开？尝试点击下列官方镜像站点
+        </div>
+
+        <div class="sitelinks">
+          <div class="sitelinks-row">
+            <a href="https://Stake.com/?c=ABC666" target="_blank" rel="noopener noreferrer" class="sitelink">Stake.com</a>
+            <a href="https://Stake.mg/?c=ABC666" target="_blank" rel="noopener noreferrer" class="sitelink">Stake.mg</a>
+            <a href="https://Stake.pet/?c=ABC666" target="_blank" rel="noopener noreferrer" class="sitelink">Stake.pet</a>
+            <a href="https://Stake1018.com/?c=ABC666" target="_blank" rel="noopener noreferrer" class="sitelink">Stake1018.com</a>
+          </div>
+          <div class="sitelinks-row">
+            <a href="https://Stake.ac/?c=ABC666" target="_blank" rel="noopener noreferrer" class="sitelink">Stake.ac</a>
+            <a href="https://Stake.ceo/?c=ABC666" target="_blank" rel="noopener noreferrer" class="sitelink">Stake.ceo</a>
+            <a href="https://Stake.krd/?c=ABC666" target="_blank" rel="noopener noreferrer" class="sitelink">Stake.krd</a>
+            <a href="https://Stake1019.com/?c=ABC666" target="_blank" rel="noopener noreferrer" class="sitelink">Stake1019.com</a>
+          </div>
+          <div class="sitelinks-row">
+            <a href="https://Stake.bz/?c=ABC666" target="_blank" rel="noopener noreferrer" class="sitelink">Stake.bz</a>
+            <a href="https://Stake.bet/?c=ABC666" target="_blank" rel="noopener noreferrer" class="sitelink">Stake.bet</a>
+            <a href="https://Staketr.com/?c=ABC666" target="_blank" rel="noopener noreferrer" class="sitelink">Staketr.com</a>
+            <a href="https://Stake1020.com/?c=ABC666" target="_blank" rel="noopener noreferrer" class="sitelink">Stake1020.com</a>
+          </div>
+          <div class="sitelinks-row">
+            <a href="https://Stake.jp/?c=ABC666" target="_blank" rel="noopener noreferrer" class="sitelink">Stake.jp</a>
+            <a href="https://Stake.mba/?c=ABC666" target="_blank" rel="noopener noreferrer" class="sitelink">Stake.mba</a>
+            <a href="https://Stake.games/?c=ABC666" target="_blank" rel="noopener noreferrer" class="sitelink">Stake.games</a>
+            <a href="https://Stake1021.com/?c=ABC666" target="_blank" rel="noopener noreferrer" class="sitelink">Stake1021.com</a>
+          </div>
+        </div>
+
+        <h1>Stake VIP 等级计算器</h1>
+        <h3 class="description-line">要计算晋升到下一个VIP等级所需的投注额，请从下拉列表中选择您的等级</h3>
+        <h3 class="description-line">输入您的VIP进度百分比</h3>
+      </div>
+      <div class="form-container">
+        <form class="rank-form" onsubmit="return false;" aria-label="VIP等级计算表单">
+          <div class="input-group">
+            <label for="vipProgress">VIP 进度 (%)</label>
+            <div class="progress-input-wrapper">
+              <div class="progress-bar-wrapper">
+                <div class="progress-bar-container" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar" id="progressBar"></div>
+                </div>
+                <div class="manual-input">
+				   <input type="number" placeholder="进度" id="vipProgress" min="0" max="100" step="0.01" inputmode="decimal" aria-label="VIP进度百分比">
+                  <span class="percentage-symbol" aria-hidden="true">%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="rank-selection-row">
+              <label for="current_rank">当前等级</label>
+              <div class="select-wrapper">
+                <select id="current_rank" aria-label="选择您当前的VIP等级">
+                  <option value="Non VIP">非 VIP</option>
+                  <option value="Bronze">青铜</option>
+                  <option value="Silver">白银</option>
+                  <option value="Gold">黄金</option>
+                  <option value="Platinum I">铂金 I</option>
+                  <option value="Platinum II">铂金 II</option>
+                  <option value="Platinum III">铂金 III</option>
+                  <option value="Platinum IV">铂金 IV</option>
+                  <option value="Platinum V">铂金 V</option>
+                  <option value="Platinum VI">铂金 VI</option>
+                  <option value="Diamond I">钻石 I</option>
+                  <option value="Diamond II">钻石 II</option>
+                  <option value="Diamond III">钻石 III</option>
+                  <option value="Diamond IV">钻石 IV</option>
+                  <option value="Diamond V">钻石 V</option>
+                  <option value="Obsidian">黑曜石</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="result-container" aria-live="polite">
+            <span class="result" id="result"></span>
+          </div>
+        </form>
+      </div>
+      <div class="logos-container">
+        <h4>我们的合作伙伴</h4>
+        <div class="logos">
+          <div class="logo-item">
+            <img src="data:image/svg+xml,%3csvg%20width='147'%20height='24'%20viewBox='0%200%20147%2024'%20class='Header_logo__SAQTw'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_10546_125386)'%3e%3cpath%20d='M15.468%200H5.01174C3.6733%200%202.41338%200.531836%201.46757%201.49269C0.521765%202.45531%200%203.73349%200%205.09322V6.65327C0%208.73098%201.28609%2010.5516%203.44121%2011.5249L4.30151%2011.883V6.7295C4.29802%206.70291%204.29628%206.67809%204.29628%206.6515V5.09145C4.29628%204.8273%204.4289%204.65534%204.50743%204.57556C4.58595%204.49579%204.75522%204.36106%205.01349%204.36106H15.4697C15.7297%204.36106%2015.899%204.49402%2015.9775%204.57556C16.0561%204.65534%2016.1869%204.8273%2016.1869%205.08967V8.51293H20.4815V5.09145C20.4815%203.73172%2019.9597%202.45177%2019.0139%201.49091C18.0646%200.530064%2016.8064%200%2015.468%200Z'%20fill='%23886CFF'/%3e%3cpath%20d='M17.0228%2012.4662L16.18%2012.1152V17.3042C16.1835%2017.3166%2016.1835%2017.3308%2016.1835%2017.3432V18.9032C16.1835%2019.1674%2016.0526%2019.3411%2015.9723%2019.4209C15.8938%2019.5007%2015.7245%2019.6354%2015.4662%2019.6354H5.01174C4.61736%2019.6354%204.29628%2019.3074%204.29628%2018.9086V15.4853H0V18.9086C0%2021.7167%202.24761%2024%205.01174%2024H15.468C16.8064%2023.9982%2018.0663%2023.4682%2019.0122%2022.5073C19.958%2021.5447%2020.4797%2020.2647%2020.4797%2018.905V17.345C20.4797%2015.2478%2019.1884%2013.4236%2017.0228%2012.468V12.4662Z'%20fill='%23886CFF'/%3e%3cpath%20d='M8.39358%2013.8755C9.89431%2015.4001%2010.2398%2017.3306%2010.2398%2017.3306C10.2398%2017.3306%2010.4649%2016.0879%2011.3287%2014.8097C11.5416%2014.4942%2011.7912%2014.1768%2012.0878%2013.8755C13.5885%2012.3509%2015.4889%2011.9981%2015.4889%2011.9981C15.4889%2011.9981%2014.0545%2011.7322%2012.6916%2010.6614C12.4874%2010.5001%2012.2833%2010.3228%2012.0861%2010.1225C10.5853%208.59787%2010.2381%206.66553%2010.2381%206.66553C10.2381%206.66553%2010.0165%207.90825%209.15267%209.18998C8.93977%209.50553%208.68849%209.82286%208.39183%2010.1242C6.88936%2011.6488%204.98901%2011.9998%204.98901%2011.9998C4.98901%2011.9998%206.42518%2012.2658%207.78805%2013.3365C7.99222%2013.4996%208.19639%2013.6769%208.39358%2013.8772V13.8755Z'%20fill='%23886CFF'/%3e%3cpath%20d='M38.4728%2010.7289L33.1086%2010.3141C31.4962%2010.1918%2030.8714%209.84964%2030.8714%208.50587C30.8714%207.0646%2031.5206%206.62494%2033.3738%206.62494H37.7277C39.2668%206.62494%2039.916%207.1621%2040.0608%208.58033C40.0852%208.97212%2040.2772%209.19194%2040.6628%209.19194H42.8284C43.2141%209.19194%2043.4305%208.97212%2043.406%208.55728C43.2385%205.11098%2041.5301%203.3772%2037.7294%203.3772H33.3284C29.1439%203.3772%2027.5803%205.18544%2027.5803%208.4846C27.5803%2011.7838%2029.0479%2012.9325%2032.7526%2013.225L38.1168%2013.6399C39.7292%2013.7622%2040.354%2014.1292%2040.354%2015.4977C40.354%2016.8663%2039.7048%2017.3787%2037.876%2017.3787H33.1609C31.5974%2017.3787%2030.9482%2016.8415%2030.8034%2015.4233C30.779%2015.0315%2030.587%2014.8117%2030.2013%2014.8117H28.0602C27.6745%2014.8117%2027.4582%2015.0315%2027.4826%2015.4463C27.6501%2018.8926%2029.3341%2020.6264%2033.1592%2020.6264H37.8969C42.106%2020.6264%2043.6695%2018.8182%2043.6695%2015.519C43.6695%2012.2199%2042.1304%2011.0232%2038.4746%2010.7289H38.4728Z'%20fill='%23ffffff'/%3e%3cpath%20d='M58.6786%2010.4594H49.5608V3.37354H46.2173V20.6245H49.5608V13.466H58.6786V20.6245H62.0447V3.37354H58.6786V10.4594Z'%20fill='%23ffffff'/%3e%3cpath%20d='M78.6174%2014.8098C78.6174%2016.9105%2077.8949%2017.375%2076.2843%2017.375H70.8729C69.2605%2017.375%2068.5154%2016.9105%2068.5154%2014.8098V3.37354H65.1719V14.6875C65.1719%2018.3288%2066.8803%2020.6245%2070.8729%2020.6245H76.2843C80.2525%2020.6245%2081.9853%2018.327%2081.9853%2014.6875V3.37354H78.6174V14.8098Z'%20fill='%23ffffff'/%3e%3cpath%20d='M85.1123%2020.6245H88.4314V13.3916H95.5022V10.3867H88.4314V6.62305H99.0865V3.37354H85.1123V20.6245Z'%20fill='%23ffffff'/%3e%3cpath%20d='M101.083%2020.6245H104.402V13.3916H111.475V10.3867H104.402V6.62305H115.059V3.37354H101.083V20.6245Z'%20fill='%23ffffff'/%3e%3cpath%20d='M120.397%203.37354H117.053V20.6245H130.837V17.375H120.397V3.37354Z'%20fill='%23ffffff'/%3e%3cpath%20d='M147%206.62305V3.37354H132.64V20.6245H147V17.375H135.959V13.3916H143.3V10.3867H135.959V6.62305H147Z'%20fill='%23ffffff'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_10546_125386'%3e%3crect%20width='147'%20height='24'%20fill='%23ffffff'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="Shuffle Casino" width="133.33" height="40" loading="lazy">
+          </div>
+          <div class="logo-item">
+            <img src="/assets/coingpt-zWSzxPYt.svg" alt="CoinGPT" width="133.33" height="40" loading="lazy">
+          </div>
+          <div class="logo-item">
+            <img src="/assets/rainbet-_fKHeXZJ.svg" alt="Rainbet Casino" width="133.33" height="40" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>广告与合作</h4>
+            <p>商业咨询和合作机会</p>
+            <a href="mailto:xx@xx.com" class="footer-email" aria-label="发送邮件至 xx@xx.com">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              xx@xx.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
